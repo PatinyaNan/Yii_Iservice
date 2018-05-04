@@ -1,0 +1,2167 @@
+2018/03/23 10:37:22 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\AppServ\www\iservice\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\AppServ\www\iservice\app\protected\controllers\SiteController.php(7): CController->render('index')
+#2 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\iservice\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\iservice\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/')
+#8 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/iservice/app/index.php?r=Site/
+---
+2018/03/23 11:06:14 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "session".' in C:\AppServ\www\iservice\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('session', Array)
+#1 C:\AppServ\www\iservice\app\protected\views\site\index.php(2): CWebApplication->session('employee_id')
+#2 C:\AppServ\www\iservice\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\iservice\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', NULL, true)
+#4 C:\AppServ\www\iservice\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', NULL, true)
+#5 C:\AppServ\www\iservice\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\AppServ\www\iservice\app\protected\controllers\SiteController.php(7): CController->render('index')
+#7 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/')
+#13 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice/app/index.php?r=Site/
+---
+2018/03/23 11:10:55 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "session".' in C:\AppServ\www\iservice\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('session', Array)
+#1 C:\AppServ\www\iservice\app\protected\views\site\index.php(2): CWebApplication->session('employee_id')
+#2 C:\AppServ\www\iservice\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\iservice\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', NULL, true)
+#4 C:\AppServ\www\iservice\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', NULL, true)
+#5 C:\AppServ\www\iservice\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\AppServ\www\iservice\app\protected\controllers\SiteController.php(7): CController->render('index')
+#7 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/')
+#13 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice/app/index.php?r=Site/
+---
+2018/03/23 11:13:46 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "session".' in C:\AppServ\www\iservice\framework\base\CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('session', Array)
+#1 C:\AppServ\www\iservice\app\protected\views\site\index.php(2): CWebApplication->session('employee_id')
+#2 C:\AppServ\www\iservice\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\iservice\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', NULL, true)
+#4 C:\AppServ\www\iservice\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', NULL, true)
+#5 C:\AppServ\www\iservice\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\AppServ\www\iservice\app\protected\controllers\SiteController.php(7): CController->render('index')
+#7 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/')
+#13 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice/app/index.php?r=Site/
+---
+2018/03/23 11:20:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:28:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:29:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:34:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:38:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/checkLog...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/chec1kLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/chec1kLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/chec1kLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:40:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/chec1kLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/chec1kLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/chec1kLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:40:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "member/chec1kLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('member/chec1kLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=member/chec1kLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mem1ber/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('mem1ber/checkLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=mem1ber/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:40:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mem1ber/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('mem1ber/checkLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=mem1ber/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:42:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mem1ber/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('mem1ber/checkLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=mem1ber/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mem1ber/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('mem1ber/checkLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=mem1ber/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "mem1ber/checkLogin".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('mem1ber/checkLo...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=mem1ber/checkLogin
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Site
+---
+2018/03/23 11:47:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Profile".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('Profile')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('Profile')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/23 11:51:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/23 11:58:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/23 12:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/30 10:07:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Profile".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('Profile')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('Profile')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/30 10:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/30 10:09:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/03/30 10:34:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+---
+2018/03/30 10:34:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php
+---
+2018/03/30 11:01:23 [error] [php] YiiBase::include(Controoler.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php(2): spl_autoload_call()
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(354): require()
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\AppServ\www\iservice\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice/app/index.php?r=Config/Index
+in C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php (2)
+in C:\AppServ\www\iservice\app\index.php (13)
+2018/03/30 11:01:40 [error] [php] YiiBase::include(Controoler.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php(2): spl_autoload_call()
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(354): require()
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#3 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\AppServ\www\iservice\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice/app/index.php?r=Config/Index
+in C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php (2)
+in C:\AppServ\www\iservice\app\index.php (13)
+2018/03/30 11:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Config/Index
+---
+2018/03/30 11:25:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Config/Index
+---
+2018/03/30 11:32:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Config/Index
+---
+2018/03/30 11:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Config/Index
+---
+2018/03/30 11:32:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ProjectType".' in C:\AppServ\www\iservice\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CController.php(270): CController->missingAction('ProjectType')
+#1 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('ProjectType')
+#2 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/ProjectT...')
+#3 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/ProjectType
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Config/Index
+---
+2018/03/30 11:33:19 [error] [php] YiiBase::include(RepairType.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php(7): spl_autoload_call()
+#1 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): ConfigController->actionRepairType()
+#2 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\AppServ\www\iservice\framework\web\CController.php(286): ConfigController->runAction()
+#4 C:\AppServ\www\iservice\framework\web\CController.php(265): ConfigController->runActionWithFilters()
+#5 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): ConfigController->run()
+#6 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\AppServ\www\iservice\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice/app/index.php?r=config/RepairType
+in C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php (7)
+in C:\AppServ\www\iservice\app\index.php (13)
+2018/03/30 11:33:53 [error] [php] YiiBase::include(RepairType.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php(7): spl_autoload_call()
+#1 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): ConfigController->actionRepairType()
+#2 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\AppServ\www\iservice\framework\web\CController.php(286): ConfigController->runAction()
+#4 C:\AppServ\www\iservice\framework\web\CController.php(265): ConfigController->runActionWithFilters()
+#5 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): ConfigController->run()
+#6 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\AppServ\www\iservice\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice/app/index.php?r=config/RepairType
+in C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php (7)
+in C:\AppServ\www\iservice\app\index.php (13)
+2018/03/30 11:37:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'db_iservice.repair_types' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `Repair_types`.
+in C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php (7)
+in C:\AppServ\www\iservice\app\index.php (13)
+2018/03/30 11:37:34 [error] [exception.CDbException] exception 'CDbException' with message 'The table "Repair_types" for active record class "RepairType" cannot be found in the database.' in C:\AppServ\www\iservice\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(RepairType))
+#1 C:\AppServ\www\iservice\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php(7): CActiveRecord->__construct()
+#3 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(49): ConfigController->actionRepairType()
+#4 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('RepairType')
+#8 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/RepairTy...')
+#9 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/RepairType
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=Config/Index
+---
+2018/03/30 12:34:42 [error] [exception.CException] exception 'CException' with message 'Property "RepairType._attrubutes" is not defined.' in C:\AppServ\www\iservice\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\db\ar\CActiveRecord.php(161): CComponent->__set('_attrubutes', Array)
+#1 C:\AppServ\www\iservice\app\protected\controllers\ConfigController.php(21): CActiveRecord->__set('_attrubutes', Array)
+#2 [internal function]: ConfigController->actionRepairTypeForm(NULL)
+#3 C:\AppServ\www\iservice\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#4 C:\AppServ\www\iservice\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#5 C:\AppServ\www\iservice\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\AppServ\www\iservice\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\AppServ\www\iservice\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\iservice\framework\web\CWebApplication.php(282): CController->run('RepairTypeForm')
+#9 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('config/RepairTy...')
+#10 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iservice/app/index.php?r=config/RepairTypeForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=config/RepairTypeForm
+---
+2018/04/20 09:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=config/RepairType
+---
+2018/04/20 09:41:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=config/RepairType
+---
+2018/04/20 09:41:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php
+---
+2018/04/20 09:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php
+---
+2018/04/20 09:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/04/20 09:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/04/20 09:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice/app/index.php?r=member/home
+---
+2018/04/20 10:00:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php
+---
+2018/04/20 10:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:00:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Profile".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Profile')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Report/Repair
+---
+2018/04/20 10:06:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/RepairType
+---
+2018/04/20 10:12:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Profile".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Profile')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Report/Repair
+---
+2018/04/20 10:12:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/04/20 10:13:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "DeviceType".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('DeviceType')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('DeviceType')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/DeviceTy...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/DeviceType
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/RepairType
+---
+2018/04/20 10:13:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceType
+---
+2018/04/20 10:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:35:23 [error] [exception.CException] exception 'CException' with message 'ConfigController cannot find the requested view "ProjectType".' in C:\AppServ\www\iservice2\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectType', Array, true)
+#1 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(44): CController->render('ProjectType', Array)
+#2 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): ConfigController->actionProjectType()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectType')
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/ProjectT...')
+#8 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/ProjectType
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:35:27 [error] [exception.CException] exception 'CException' with message 'ConfigController cannot find the requested view "ProjectType".' in C:\AppServ\www\iservice2\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectType', Array, true)
+#1 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(44): CController->render('ProjectType', Array)
+#2 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): ConfigController->actionProjectType()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectType')
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/ProjectT...')
+#8 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/ProjectType
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:35:33 [error] [exception.CException] exception 'CException' with message 'ConfigController cannot find the requested view "ProjectType".' in C:\AppServ\www\iservice2\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectType', Array, true)
+#1 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(44): CController->render('ProjectType', Array)
+#2 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): ConfigController->actionProjectType()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectType')
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/ProjectT...')
+#8 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/ProjectType
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 10:45:15 [error] [exception.CException] exception 'CException' with message 'ConfigController cannot find the requested view "ProjectypeForm".' in C:\AppServ\www\iservice2\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectypeForm', Array, true)
+#1 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(67): CController->render('ProjectypeForm', Array)
+#2 [internal function]: ConfigController->actionProjectTypeForm('4')
+#3 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#4 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeForm')
+#9 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#10 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeForm&id=4
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 10:48:41 [error] [exception.CException] exception 'CException' with message 'ConfigController cannot find the requested view "ProjectypeForm".' in C:\AppServ\www\iservice2\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectypeForm', Array, true)
+#1 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(67): CController->render('ProjectypeForm', Array)
+#2 [internal function]: ConfigController->actionProjectTypeForm('4')
+#3 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#4 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeForm')
+#9 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#10 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeForm&id=4
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 10:49:09 [error] [exception.CException] exception 'CException' with message 'ConfigController cannot find the requested view "ProjecTypeForm".' in C:\AppServ\www\iservice2\framework\web\CController.php:878
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjecTypeForm', Array, true)
+#1 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(67): CController->render('ProjecTypeForm', Array)
+#2 [internal function]: ConfigController->actionProjectTypeForm('4')
+#3 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#4 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeForm')
+#9 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#10 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeForm&id=4
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 10:49:29 [error] [exception.CException] exception 'CException' with message 'Property "RepairType.project_type_name" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('project_type_na...')
+#1 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('project_type_na...')
+#2 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RepairType), 'project_type_na...')
+#3 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RepairType), 'project_type_na...', Array)
+#4 C:\AppServ\www\iservice2\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RepairType), 'project_type_na...', Array)
+#5 C:\AppServ\www\iservice2\app\protected\views\config\ProjectTypeForm.php(16): CActiveForm->textField(Object(RepairType), 'project_type_na...', Array)
+#6 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#7 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectTypeForm', Array, true)
+#10 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(67): CController->render('ProjectTypeForm', Array)
+#11 [internal function]: ConfigController->actionProjectTypeForm('3')
+#12 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#13 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#14 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeForm')
+#18 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#19 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeForm&id=3
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 10:51:58 [error] [exception.CException] exception 'CException' with message 'Property "RepairType.project_type_name" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('project_type_na...')
+#1 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('project_type_na...')
+#2 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(RepairType), 'project_type_na...')
+#3 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(RepairType), 'project_type_na...', Array)
+#4 C:\AppServ\www\iservice2\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(RepairType), 'project_type_na...', Array)
+#5 C:\AppServ\www\iservice2\app\protected\views\config\ProjectTypeForm.php(16): CActiveForm->textField(Object(RepairType), 'project_type_na...', Array)
+#6 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#7 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('ProjectTypeForm', Array, true)
+#10 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(67): CController->render('ProjectTypeForm', Array)
+#11 [internal function]: ConfigController->actionProjectTypeForm('1')
+#12 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#13 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#14 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeForm')
+#18 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#19 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeForm&id=1
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 10:56:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ProjectTypeDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('ProjectTypeDele...')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeDele...')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeDelete&id=5
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 10:57:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ProjectTypeDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('ProjectTypeDele...')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('ProjectTypeDele...')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/ProjectT...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/ProjectTypeDelete&id=5
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/ProjectType
+---
+2018/04/20 11:19:21 [error] [exception.CException] exception 'CException' with message 'Property "ProjectType.device_type_name" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('device_type_nam...')
+#1 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('device_type_nam...')
+#2 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(ProjectType), 'device_type_nam...')
+#3 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(ProjectType), 'device_type_nam...', Array)
+#4 C:\AppServ\www\iservice2\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(ProjectType), 'device_type_nam...', Array)
+#5 C:\AppServ\www\iservice2\app\protected\views\config\DeviceTypeForm.php(16): CActiveForm->textField(Object(ProjectType), 'device_type_nam...', Array)
+#6 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#7 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('DeviceTypeForm', Array, true)
+#10 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(100): CController->render('DeviceTypeForm', Array)
+#11 [internal function]: ConfigController->actionDeviceTypeForm(NULL)
+#12 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#13 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#14 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('DeviceTypeForm')
+#18 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/DeviceTy...')
+#19 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/DeviceTypeForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceType
+---
+2018/04/20 11:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Employee".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Employee')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Employee')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/Employee')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/Employee
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceType
+---
+2018/04/20 11:51:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceType
+---
+2018/04/20 11:51:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Employee".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Employee')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Employee')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/Employee')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/Employee
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceType
+---
+2018/04/20 11:51:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceType
+---
+2018/04/20 12:03:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/DeviceTypeForm
+---
+2018/04/20 12:07:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/RepairType
+---
+2018/04/20 12:07:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 12:07:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/GroupSetting
+---
+2018/04/20 12:07:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/RepairType
+---
+2018/04/20 12:08:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/RepairType
+---
+2018/04/20 12:08:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 12:09:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 12:09:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/GroupSetting
+---
+2018/04/20 12:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSetting".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSetting')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSetting')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/04/20 12:09:53 [error] [php] YiiBase::include(GroupSettiing.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(107): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): ConfigController->actionGroupSetting()
+#2 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(286): ConfigController->runAction()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(265): ConfigController->runActionWithFilters()
+#5 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): ConfigController->run()
+#6 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+in C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php (107)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/20 12:10:30 [error] [php] YiiBase::include(GroupSettiing.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(107): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): ConfigController->actionGroupSetting()
+#2 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(286): ConfigController->runAction()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(265): ConfigController->runActionWithFilters()
+#5 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): ConfigController->run()
+#6 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+in C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php (107)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/20 12:10:31 [error] [php] YiiBase::include(GroupSettiing.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(107): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): ConfigController->actionGroupSetting()
+#2 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(286): ConfigController->runAction()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(265): ConfigController->runActionWithFilters()
+#5 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): ConfigController->run()
+#6 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=config/GroupSetting
+in C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php (107)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/20 12:17:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSettingFormDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSettingFor...')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSettingFor...')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/GroupSettingFormDelete&id=4
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/GroupSetting
+---
+2018/04/20 12:18:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "GroupSettingFormDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('GroupSettingFor...')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('GroupSettingFor...')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/GroupSet...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/GroupSettingFormDelete&id=4
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/GroupSetting
+---
+2018/04/20 12:58:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeForm".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeForm')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeForm')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/EmployeeForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/20 13:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeForm".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeForm')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeForm')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/EmployeeForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/20 13:05:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeView".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeView')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/20 13:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeView".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeView')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeView".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeView')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:43:28 [error] [exception.CException] exception 'CException' with message 'Property "Employee.group" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('group')
+#1 C:\AppServ\www\iservice2\app\protected\views\config\EmployeeView.php(8): CActiveRecord->__get('group')
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('EmployeeView', Array, true)
+#6 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(149): CController->render('EmployeeView', Array)
+#7 [internal function]: ConfigController->actionEmployeeView('2')
+#8 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#9 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#14 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#15 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:45:25 [error] [exception.CException] exception 'CException' with message 'ConfigController contains improperly nested widget tags in its view "C:\AppServ\www\iservice2\app\protected\views\config\EmployeeView.php". A CActiveForm widget does not have an endWidget() call.' in C:\AppServ\www\iservice2\framework\web\CBaseController.php:101
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#1 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('EmployeeView', Array, true)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(149): CController->render('EmployeeView', Array)
+#3 [internal function]: ConfigController->actionEmployeeView('2')
+#4 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#5 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#11 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:55:30 [error] [exception.CException] exception 'CException' with message 'Property "GroupSetting.group_sex" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('group_sex')
+#1 C:\AppServ\www\iservice2\app\protected\views\config\EmployeeView.php(12): CActiveRecord->__get('group_sex')
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('EmployeeView', Array, true)
+#6 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(149): CController->render('EmployeeView', Array)
+#7 [internal function]: ConfigController->actionEmployeeView('2')
+#8 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#9 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#14 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#15 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:56:47 [error] [exception.CException] exception 'CException' with message 'Property "Employee.group_fname" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('group_fname')
+#1 C:\AppServ\www\iservice2\app\protected\views\config\EmployeeView.php(16): CActiveRecord->__get('group_fname')
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#3 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('EmployeeView', Array, true)
+#6 C:\AppServ\www\iservice2\app\protected\controllers\ConfigController.php(149): CController->render('EmployeeView', Array)
+#7 [internal function]: ConfigController->actionEmployeeView('2')
+#8 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ConfigController), Array)
+#9 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ConfigController), Object(ReflectionMethod), Array)
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeView')
+#14 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#15 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeView&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:59:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/Register&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 10:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/Register&id=1
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:11:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeForm".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeForm')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeForm')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/EmployeeForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:16:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('config/register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=config/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:17:17 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\register.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(54): MemberController->render()
+#6 unknown(0): MemberController->actionRegister()
+#7 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#8 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+in C:\AppServ\www\iservice2\app\protected\views\member\register.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (54)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/27 11:17:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/Register&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:17:53 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\register.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(54): MemberController->render()
+#6 unknown(0): MemberController->actionRegister()
+#7 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#8 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+in C:\AppServ\www\iservice2\app\protected\views\member\register.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (54)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/27 11:18:48 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\register.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(54): MemberController->render()
+#6 unknown(0): MemberController->actionRegister()
+#7 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#8 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+in C:\AppServ\www\iservice2\app\protected\views\member\register.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (54)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/27 11:19:14 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\register.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(54): MemberController->render()
+#6 unknown(0): MemberController->actionRegister()
+#7 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#8 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#11 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#13 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+in C:\AppServ\www\iservice2\app\protected\views\member\register.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (54)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/04/27 11:19:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/Register&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Register".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('Register')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Register')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Register')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/Register&id=2
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeDelete')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeDelete')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Config/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Config/EmployeeDelete&id=222
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:21:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeDelete')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeDelete')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/EmployeeDelete&id=222
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:23:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "EmployeeDelete".' in C:\AppServ\www\iservice2\framework\web\CController.php:483
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CController.php(270): CController->missingAction('EmployeeDelete')
+#1 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('EmployeeDelete')
+#2 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/Employee...')
+#3 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/EmployeeDelete&id=222
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:27:36 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:27:41 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:27:53 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:28:05 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:33:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=config/Employee
+---
+2018/04/27 11:41:03 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:49:53 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:58:10 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/04/27 11:58:28 [error] [exception.CException] exception 'CException' with message 'Property "Employee.employee_created_date" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(161): CComponent->__set('employee_create...', Object(CDbExpression))
+#1 C:\AppServ\www\iservice2\app\protected\models\Employee.php(47): CActiveRecord->__set('employee_create...', Object(CDbExpression))
+#2 C:\AppServ\www\iservice2\framework\base\CModel.php(156): Employee->beforeValidate()
+#3 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(805): CModel->validate(NULL)
+#4 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(44): CActiveRecord->save()
+#5 [internal function]: MemberController->actionRegister(NULL)
+#6 C:\AppServ\www\iservice2\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(MemberController), Array)
+#7 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(MemberController), Object(ReflectionMethod), Array)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('register')
+#12 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('member/register')
+#13 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/iservice2/app/index.php?r=member/register
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/register
+---
+2018/05/04 03:29:28 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(68): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (68)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:30:21 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(68): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (68)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:31:24 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:36:06 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php
+---
+2018/05/04 03:39:31 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:39:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php
+---
+2018/05/04 03:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/home
+---
+2018/05/04 03:40:58 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:42:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/home
+---
+2018/05/04 03:43:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/home
+---
+2018/05/04 03:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Home/RequestForm
+---
+2018/05/04 03:43:44 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:43:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Home/RequestForm
+---
+2018/05/04 03:45:06 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Home/RequestForm
+---
+2018/05/04 03:48:46 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/home
+---
+2018/05/04 03:48:58 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:49:03 [error] [php] YiiBase::include(Group.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\iservice2\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(60): spl_autoload_call()
+#1 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require()
+#2 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): MemberController->renderInternal()
+#3 C:\AppServ\www\iservice2\framework\web\CController.php(869): MemberController->renderFile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(782): MemberController->renderPartial()
+#5 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(70): MemberController->render()
+#6 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#7 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(286): MemberController->runAction()
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(265): MemberController->runActionWithFilters()
+#10 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): MemberController->run()
+#11 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 C:\AppServ\www\iservice2\app\index.php(13): CWebApplication->run()
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+in C:\AppServ\www\iservice2\app\protected\views\member\profile.php (60)
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (70)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 03:52:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:52:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 03:55:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 03:55:25 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:55:25 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 03:55:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:55:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 03:57:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (62)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 03:57:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(62): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:00:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:00:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 04:00:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:02:39 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 04:02:39 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:02:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 04:02:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:03:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Report/Repair".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Report/Repair')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Report/Repair
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Config/Index
+---
+2018/05/04 04:05:16 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 04:05:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `employee_image`, `id`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:08:46 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `id`, `employee_image`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11).
+in C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php (61)
+in C:\AppServ\www\iservice2\app\index.php (13)
+2018/05/04 04:08:46 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '2' for key 1. The SQL statement executed was: INSERT INTO `employees` (`employee_sex`, `employee_fname`, `employee_lname`, `employee_code`, `employee_username`, `employee_password`, `employee_email`, `employee_tel`, `id`, `employee_image`, `employee_status`, `employee_created_data`, `employee_level`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, NOW(), :yp11)' in C:\AppServ\www\iservice2\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(61): CActiveRecord->save()
+#3 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#4 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#8 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#9 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Home/RequestForm".' in C:\AppServ\www\iservice2\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Home/RequestFor...')
+#1 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Home/RequestForm
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=Member/Profile
+---
+2018/05/04 04:17:45 [error] [exception.CException] exception 'CException' with message 'Property "Employee.Employee" is not defined.' in C:\AppServ\www\iservice2\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\AppServ\www\iservice2\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Employee')
+#1 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('Employee')
+#2 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Employee), 'Employee')
+#3 C:\AppServ\www\iservice2\framework\web\helpers\CHtml.php(1609): CHtml::activeInputField('hidden', Object(Employee), 'Employee', Array)
+#4 C:\AppServ\www\iservice2\framework\web\widgets\CActiveForm.php(756): CHtml::activeHiddenField(Object(Employee), 'Employee', Array)
+#5 C:\AppServ\www\iservice2\app\protected\views\member\profile.php(67): CActiveForm->hiddenField(Object(Employee), 'Employee')
+#6 C:\AppServ\www\iservice2\framework\web\CBaseController.php(126): require('C:\AppServ\www\...')
+#7 C:\AppServ\www\iservice2\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#8 C:\AppServ\www\iservice2\framework\web\CController.php(869): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#9 C:\AppServ\www\iservice2\framework\web\CController.php(782): CController->renderPartial('profile', Array, true)
+#10 C:\AppServ\www\iservice2\app\protected\controllers\MemberController.php(74): CController->render('profile', Array)
+#11 C:\AppServ\www\iservice2\framework\web\actions\CInlineAction.php(49): MemberController->actionProfile()
+#12 C:\AppServ\www\iservice2\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\AppServ\www\iservice2\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\AppServ\www\iservice2\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(282): CController->run('Profile')
+#16 C:\AppServ\www\iservice2\framework\web\CWebApplication.php(141): CWebApplication->runController('Member/Profile')
+#17 C:\AppServ\www\iservice2\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\AppServ\www\iservice2\app\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/iservice2/app/index.php?r=Member/Profile
+HTTP_REFERER=http://localhost/iservice2/app/index.php?r=member/home
+---
